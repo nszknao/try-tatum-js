@@ -1,0 +1,19 @@
+{
+  "name": "try-tatum-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nszknao/try-tatum-js.git",
+  "author": "Naoto Nishizaka <nszk.nao@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "run-file": "ts-node -r dotenv/config"
+  },
+  "dependencies": {
+    "@tatumio/tatum": "^1.26.7",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
